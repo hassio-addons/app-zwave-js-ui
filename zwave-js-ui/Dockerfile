@@ -7,8 +7,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Environment configuration
 ENV \
-    S6_KILL_GRACETIME=30000 \
-    S6_SERVICES_GRACETIME=30000
+    S6_KILL_GRACETIME=3000 \
+    S6_SERVICES_GRACETIME=25000
 
 # Setup base
 ARG ZWAVE_JS_UI_VERSION="11.25.1"
