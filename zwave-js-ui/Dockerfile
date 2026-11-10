@@ -11,7 +11,7 @@ ENV \
     S6_SERVICES_GRACETIME=25000
 
 # Setup base
-ARG ZWAVE_JS_UI_VERSION="11.26.1"
+ARG ZWAVE_JS_UI_VERSION="11.26.2"
 RUN \
     apk add --no-cache \
         eudev=3.2.14-r6 \
